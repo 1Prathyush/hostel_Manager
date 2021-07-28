@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #e6edf3;
+  color: white;
+}
+
+.cont{
+
+  position: absolute;
+  float: right;
+  left:100px;
+  margin-top:2%;
+}
+
+
+
+.hostel {
+position:relative;
+margin-top: 15%;
+display: inline-block;
+  width: 160px;
+  height: 75px;
+  background:#3D85C6;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+  font-size:larger;
+  font-weight:800;
+}
+
+.hide{
+    display: none;
+}
+
+nav
+{
+  background: #0a3d62;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo
+{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 80px;
+  padding: 0 100px;
+}
+
+
+nav > ul
+{
+  float: right;
+  margin-right: 20px;
+}
+
+nav > ul > li
+{
+  line-height: 80px;
+  display: inline-block;
+  margin: 0 0px;
+}
+
+.checkbtn
+{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: poiter;
+  display: none;
+}
+
+#check
+{
+  display: none;
+}
+
+
+.logout{
+
+  background:none;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.create{
+
+  background:none;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.join{
+  background:none;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.home{
+  background:none;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.home:active{
+  background-color: #3D85C6;
+}
+.home:hover{
+  background-color: #3D85C6;
+}
+.logout:hover{
+  background-color: #3D85C6;
+
+}
+.create:hover{
+  background-color: #3D85C6;
+}
+.join:hover{
+  background-color: #3D85C6;
+}
+
+.profile{
+
+  background:none;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.profile:hover{
+  background-color: #3D85C6;
+}
+
+.joinhotel{
+  /*border: 1px solid;*/
+  border-radius: 10px;
+  padding: 25px;
+  color: black; 
+  /* Center vertically and horizontally */
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 37%;
+  align-items: center;
+  font-size: 35px;
+  /* shadow  */
+
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+#jclose{
+  position: relative;
+  margin-left: 25%;
+  background:#0a3d62;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+#jclose:hover{
+  background-color: #3D85C6;
+}
+#jsubmit{
+  position: relative;
+  margin-left: 15%;
+  background:#0a3d62;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+
+  border-radius: 5px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+
+}
+#jsubmit:hover{
+  background-color: #3D85C6;
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  background-color: #e6edf3;
+  border: none;
+  border-bottom: 2px solid  rgb(58, 58, 58);
+  font-size: large;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.createhostel{
+    /*border: 1px solid;*/
+    border-radius: 10px;
+    padding: 25px;
+    color: black; 
+    /* Center vertically and horizontally */
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 37%;
+    align-items: center;
+    font-size: 35px;
+    /* shadow  */
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+.trans{
+  filter: opacity(25%);
+}
+
+
+#cclose{
+  position: relative;
+  margin-left: 25%;
+  background:#0a3d62;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+#cclose:hover{
+  background-color: #3D85C6;
+}
+#csubmit{
+  position: relative;
+  margin-left: 15%;
+  background:#0a3d62;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+
+  border-radius: 5px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+
+}
+#csubmit:hover{
+  background-color: #3D85C6;
+}

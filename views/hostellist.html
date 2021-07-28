@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostel Manager|list</title>
+    <link rel="stylesheet" href="/hostellist/hostellist.css" />
+  </head>
+  <body>
+  <div class="nothing moreless">  
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="las la-bars"></i>
+      </label>
+      <label for="logo" class="logo">HMANAGER</label>
+      <ul>
+        <li><button class="home" id="home" >HOME</button></li>
+        <li> <button class="create hide" id="create">CREATE</button>
+          <button class="join hide" id="join">JOIN</button></li>
+          <li><button class="profile" id="profile" >PROFILE</button></li>
+        <li><button class="logout" id="logout" >LOGOUT</button></li>
+      </ul>
+    </nav>
+
+    <div class="corj" id="corj"></div>
+    <div class="heading"></div>
+
+    <div class="cont">
+      <div class="container" id="container"></div>
+    </div>
+
+
+  </div>
+    <div class="joinhotel hide" id="joinhostel">
+
+      <form action="#">
+        <label for="classcode">Enter the classCode</label><br><br>
+        <input type="text" name="hcode" id="hcode"><br><br>
+        <button id="jclose">close</button>
+        <button type="submit" id="jsubmit">JOIN</button>
+    </form>
+
+    </div>
+
+    <div class="createhostel hide" id="createhostel">
+      <form action="#">
+
+        <label for="hostelName"> Enter the hostel name</label><br>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="place">Enter the place</label><br>
+        <input type="text" name="place" id="place"><br><br>
+        <button id="cclose">close</button>
+        <button type="submit" id="csubmit">Create</button>
+    </form>
+
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    <script src="/hostellist/hostellist.js"></script>
+  </body>
+</html>

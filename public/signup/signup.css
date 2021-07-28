@@ -1,0 +1,128 @@
+.container{
+    position: relative;
+    width: 362px;
+    height: 607px;
+    left: 1125px;
+    top: 80px;
+    
+}
+h1{
+    width: 370px;
+height: 40px;
+left: calc(50% - 370px/2 + 294px);
+top: calc(50% - 40px/2 - 259px);
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 33px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0E4C84;
+}
+.sidebox{
+    position: absolute;
+width: 1000px;
+height: 730px;
+left: 0px;
+top: 0px;
+
+background: #B2CFEB;
+}
+
+label{
+width: 266px;
+height: 21px;
+left: 661px;
+top: 455px;
+padding-top: 10px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #0E4C84;
+}
+
+#email{
+    
+
+width: 289px;
+height: 37px;
+left: 661px;
+top: 311px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 14px;
+
+}
+
+#password{
+   
+width: 289px;
+height: 37px;
+left: 661px;
+top: 405px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 14px;
+}
+#name{
+
+width: 289px;
+height: 37px;
+left: 661px;
+top: 213px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 14px;
+}
+#password1{
+ 
+width: 289px;
+height: 37px;
+left: 661px;
+top: 488px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 14px;
+}
+#submit{
+    position: absolute;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #0E4C84;
+    align-items: center;
+width: 142px;
+height: 54px;
+left: 75px;
+top: 515px;
+
+background: #B2CFEB;
+border-radius: 5px;
+}
+select{
+    width: 289px;
+height: 37px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 14px;
+}

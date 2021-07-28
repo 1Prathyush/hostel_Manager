@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.ccontainer{
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background:#bed2e5;
+
+}
+.heading{
+position: absolute;
+width: 590px;
+height: 183px;
+left: 100px;
+top: 191px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 900;
+font-size: 105px;
+line-height: 135px;
+display: flex;
+align-items: center;
+
+color: #0E4C84;
+}
+
+/* Fell free to working with hostel’s data , manage all data securly in free of charge ... */
+.disp{
+position: absolute;
+width: 618px;
+height: 128px;
+left: 100px;
+top: 500px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 34px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+
+
+
+
+ .infobutton{
+
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: 2.5px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+ }
+
+.logout{
+
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    border: 2.5px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    cursor: pointer;
+
+}
+
+
+.hide{
+    display: none;
+}
+
+img{
+position: absolute;
+left: 64.22%;
+right: 8.46%;
+top: 22.43%;
+bottom: 32.46%;
+opacity: 40%;
+
+}

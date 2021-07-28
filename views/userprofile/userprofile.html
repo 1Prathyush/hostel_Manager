@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostel Manager|list</title>
+    <link rel="stylesheet" href="/userprofile/userprofile.css" />
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="las la-bars"></i>
+      </label>
+      <label for="logo" class="logo">HMANAGER</label>
+      <ul>
+        <li><button class="home" id="home" >HOME</button></li>
+          <li><button class="profile" id="profile" >PROFILE</button></li>
+        <li><button class="logout" id="logout" >LOGOUT</button></li>
+      </ul>
+    </nav>
+<center>
+    <div class="container">
+      <form action="action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Address">Address</label>
+          </div>
+          <div class="col-75">
+            <textarea id="Address" name="Address" placeholder="" style="height:100px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">E-mail</label>
+          </div>
+          <div class="col-75">
+            <input type="email" name="emial" id="email">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="ph">Phone Number</label>
+          </div>
+          <div class="col-75">
+            <input type="number" name="ph" id="ph">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="ins">Institution</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="ins" id="ins">
+          </div>
+        </div>
+
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="Address2">Address</label>
+          </div>
+          <div class="col-75">
+            <textarea id="Address2" name="Address2" placeholder="" style="height:100px"></textarea>
+          </div>
+        </div>
+
+          <input type="submit" value="Submit" id="submit">
+   
+      </form>
+
+    </div>
+  </center>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    <script src="/userprofile/userprofile.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,107 @@
+#email {
+  width: 289px;
+  height: 37px;
+  left: 690px;
+  top: 311px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+
+#password {
+  width: 289px;
+  height: 37px;
+  left: 690px;
+  top: 405px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+.hide {
+  display: none;
+}
+.container {
+  position: absolute;
+  width: 579px;
+  height: 550px;
+  left: 80px;
+  top: 123px;
+}
+.design {
+  position: absolute;
+  width: 1000px;
+  height: 730px;
+  right: 0px;
+  top: 0px;
+
+  background: #b2cfeb;
+}
+
+label {
+
+  left: 661px;
+  top: 455px;
+  padding-top: 10px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+
+  color: #0e4c84;
+}
+h1 {
+
+
+    display: block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0e4c84;
+}
+button {
+  position: absolute;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  color: #0e4c84;
+  align-items: center;
+  width: 142px;
+  height: 54px;
+  left: 75px;
+  top: 280px;
+
+  background: #b2cfeb;
+  border-radius: 5px;
+}
+p {
+  position: absolute;
+  width: 266px;
+  height: 21px;
+  left: 45px;
+  top: 455px;
+  padding-top: 10px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+
+  color: #0e4c84;
+}

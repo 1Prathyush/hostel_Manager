@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/hosteldash/hosteldash.css" />
+    <title>Hmanager|hostel</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo" id="logo"> Hostel Manager</div>
+        <a href="#" class="toggle-button"  id="nav-icon1">
+  
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+  
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><button class="home" id="home">HOME</button></li>
+            <li><button class="members" id="members">MEMBERS</button></li>
+            <li><button class="bills" id="bills">BILLS</button></li>
+            <li><button class="billsM" id="billsM">BILL MANAGE</button></li>
+            <li><button class="profile" id="profile">PROFILE</button></li>
+            <li><button class="logout" id="logout">LOGOUT</button></li>
+          </ul>
+        </div>
+  
+    </div>
+    
+    <div class="head" id="head"></div>
+
+    <div class="littlecontainer" id="littlecontainer">
+      <div class="anounce" id="anounce">
+        Make an Anouncement...
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="/images/pen.png" alt="pen" width="18px" height="18px"/>
+      </div>
+      <div class="readm hide" id="readm">
+        <form >
+          <textarea
+            id="message"
+            name="message"
+            placeholder="enter the message.........."
+          ></textarea><br>
+          <button id="mclick" class="mclick">Post</button>&nbsp;&nbsp;&nbsp;
+          <button id="mcancel" class="mcancel">Cancel</button>
+        </form>
+      </div>
+
+    </div>
+   
+
+    
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    <script src="/hosteldash/hosteldash.js"></script>
+  </body>
+</html>

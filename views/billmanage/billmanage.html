@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/billmanage/billmanage.css" />
+    <title>Hmanager|Bills</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo" id="logo">Hostel Manager</div>
+        <a href="#" class="toggle-button"  id="nav-icon1">
+  
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+  
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><button class="home" id="home">HOME</button></li>
+            <li><button class="members" id="members">MEMBERS</button></li>
+            <li><button class="bills" id="bills">BILLS</button></li>
+            <li><button class="billsM" id="billsM">BILL MANAGE</button></li>
+            <li><button class="profile" id="profile">PROFILE</button></li>
+            <li><button class="logout" id="logout">LOGOUT</button></li>
+          </ul>
+        </div>
+  
+    </div>
+
+    <div class="container">
+      <div class="heading">
+      <p>Post the hostel bills..</p></div>
+      <div class="formdetails">
+        <form>
+          <label for="month">Choose Month :</label>
+          <select name="month" id="month">
+            <option value="" hidden>Months</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="amount">Enter Amount :</label>&nbsp;&nbsp;&nbsp;
+          <input type="number" name="amount" id="amount" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="fileposition">
+          <div class="container2">
+            <div class="button-wrap">
+              <label class="button" for="upload">Upload File</label>
+              <input id="upload" type="file" accept='image/*'>
+            </div>
+          </div>
+        </div>  
+          <br><br>
+          <button class="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="filecontainer">
+
+      <img id='output' style="height:100px; width:100px;">
+
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-storage.js"></script>
+    <script src="/billmanage/billmanage.js"></script>
+  </body>
+</html>
